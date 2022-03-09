@@ -1,59 +1,65 @@
 // Variables
-$orangepastel: #FAC898;
-$pinkpastel: rgb(249, 218, 206);
-$bluepastel: rgb(174, 216, 230);
+$orangepastel: #fac898;
+$pinkpastel: #f9dace;
+$bluepastel: #aed8e6;
+
+$textcontrast: #1F556B;
 
 
 * {
   margin: 0;
   text-decoration: none;
+  box-sizing: border-box;
+
 }
 
 .navbar {
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  background-color: $bluepastel;
+  background-image: linear-gradient(to right, #aed8e6, #a3dcd5, #b1dcb9, #d3d59e, #fac898);
   font-family: 'Comfortaa';
+  font-size: 12px;
   margin: 0;
-  height: 4rem;
+  height: 7rem;
   div {
     display: flex;
     justify-content: space-between;
   }
   img {
-    width: 10rem;
+    width: 15rem;
+
   }
 }
 
 .nav-items {
   margin: 10px;
+  
 }
 
 .footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: $bluepastel;
+  background-image: linear-gradient(to left, #aed8e6, #a3dcd5, #b1dcb9, #d3d59e, #fac898);
   font-family: 'Comfortaa';
   margin: 0;
   height: 4rem;
-
-}
-
-.hamburger {
-  position: fixed;
-  z-index: 100;
-  top: 1rem;
-  right: 1rem;
-  padding: 4px;
-  cursor: pointer;
+    button {
+      text-decoration: none;
+    }
+    #linkedin {
+      width: 40px;
+    }
+    #github {
+      width: 40px;
+    }
 }
 
 .views {
-  height: 20rem;
-  background-color: $orangepastel;
+  background-image: url('../src/pictures/scroller.jpg');
   font-family: 'Comfortaa';
+  width: 90rem;
+  height: 280rem;
   margin: 0;
-  height: 50rem;
 }

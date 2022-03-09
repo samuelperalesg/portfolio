@@ -8,7 +8,7 @@ function Main() {
   
   return(
     <main className='views'>
-      <h1>Welcome to Sam's Page</h1>
+      
       <Switch>
         <Route exact path ="/about">
           <About />
