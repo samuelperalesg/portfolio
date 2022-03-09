@@ -1,3 +1,7 @@
+// Variables
+$orangepastel: #FAC898;
+$pinkpastel: rgb(249, 218, 206);
+$bluepastel: rgb(174, 216, 230);
 
 
 * {
@@ -9,7 +13,8 @@
   display: flex;
   justify-content: space-between ;
   align-items: center;
-  background-color: yellowgreen;
+  background-color: $bluepastel;
+  font-family: 'Comfortaa';
   margin: 0;
   height: 4rem;
   div {
@@ -29,7 +34,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: navajowhite;
+  background-color: $bluepastel;
+  font-family: 'Comfortaa';
   margin: 0;
   height: 4rem;
 
@@ -46,7 +52,8 @@
 
 .views {
   height: 20rem;
-  background-color: orangered;
+  background-color: $orangepastel;
+  font-family: 'Comfortaa';
   margin: 0;
   height: 50rem;
 }
