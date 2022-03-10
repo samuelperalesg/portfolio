@@ -17,6 +17,8 @@ $textcontrast: #1F556B;
   display: flex;
   justify-content: space-between ;
   align-items: center;
+  cursor: pointer;
+  width: 100%;
   background-image: linear-gradient(to right, #aed8e6, #a3dcd5, #b1dcb9, #d3d59e, #fac898);
   font-family: 'Comfortaa';
   font-size: 12px;
@@ -56,10 +58,29 @@ $textcontrast: #1F556B;
     }
 }
 
-.views {
+.App {
   background-image: url('../src/pictures/scroller.jpg');
   font-family: 'Comfortaa';
-  width: 90rem;
-  height: 280rem;
   margin: 0;
+}
+
+.section {
+  height: 60rem;
+  width: 100%
+}
+
+.footer-end {
+  align-items: flex-end;
+}
+
+.container {
+  height: 100%;
+  background-color: white;
+  border-radius: 1rem;
+  margin: 5rem .2rem;
+  opacity: .3;
+}
+
+.home {
+  margin: 5px .2rem;
 }
