@@ -6,9 +6,12 @@ import logo from '../pictures/logo.png'
 function Header() {
   return (
     <nav className='navbar'>
-      <Link id='logo' to='home'>
-        <img src={logo} alt='Logo' />
-      </Link>
+      <div className='logo'>
+        <Link id='logo' to='home'>
+          <img src={logo} alt='Logo' />
+        </Link>
+      </div>
+
       <div>
         <div className='nav-items'>
           <Link activeClass='active' to='home' spy={true} smooth={true} offset={-70} duration={500}>

@@ -4,7 +4,7 @@ function Contact() {
   <div className="section" id="contact">
     <div className="contact container">
         
-        </div>
+    </div>
   </div>
   )
 }
