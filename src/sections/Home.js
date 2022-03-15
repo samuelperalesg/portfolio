@@ -1,4 +1,4 @@
-import { FaArrowCircleDown } from 'react-icons/fa'
+// import { FaArrowCircleDown } from 'react-icons/fa'
 
 function Home() {
   return(

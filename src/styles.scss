@@ -26,7 +26,6 @@ $textcontrast: #1F556B;
   font-size: 12px;
   margin: 0;
   height: 9%;
-  background-position-x: 5;
   div {
     display: flex;
     justify-content: space-between;
@@ -93,14 +92,26 @@ $textcontrast: #1F556B;
 #about {
   margin: 0 5px 10px 6px;
   background-image: url('../src/pictures/about.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  width: 99%;
+  height: 80rem;
+  padding-top: 2rem;
   border-radius: 1rem;
-    img {
-      max-height: 100%;
-      max-width: 99%;
-      border-radius: 1rem;
-    }
 }
 
+.paragraph {
+  margin-top: 2rem;
+  margin-right: 49px;
+  padding-right: 190px;
+}
+
+.heading {
+  position: relative;
+  margin-top: 5px;
+  margin-left: 5px;
+  object-fit: contain;
+}
 
 #experience {
   height: 593px;
